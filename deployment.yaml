@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: vignesh2064/devops-cicd-app-pipeline:1.0.0-22
+          image: vignesh2064/devops-eks-app-pipeline-project:latest
           resources:
             limits:
               memory: "256Mi"
