@@ -1,7 +1,7 @@
 pipeline {
     agent { label "jenkins-slave" }
     environment {
-              APP_NAME = "vignesh2064/devops-cicd-app-pipeline"
+              APP_NAME = "devops-cicd-app-pipeline"
     }
 
     stages {
