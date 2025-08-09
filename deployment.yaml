@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: vignesh2064/devops-eks-project:latest
+          image: vignesh2064/devops-eks-project:1.0.0-latest
           resources:
             limits:
               memory: "256Mi"
