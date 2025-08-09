@@ -43,7 +43,7 @@ pipeline {
                 // withCredentials([usernamePassword(credentialsId: 'GitHub', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GitHub')]) {
                 withCredentials([usernamePassword(credentialsId: 'GitHub', passwordVariable: 'GitHub', usernameVariable: 'GIT_USERNAME')]) {
                     sh 'git push https://$GIT_USERNAME:$GitHub@github.com/Vignesh2064/gitops-register-app.git main'
-                // }
+                }
                   //sh "git push https://github.com/Vignesh2064/gitops-register-app.git main"
                // }
             }
