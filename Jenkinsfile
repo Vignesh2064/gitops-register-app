@@ -1,5 +1,5 @@
 pipeline {
-    agent { label "Jenkins-slave" }
+    agent { label "Jenkins-Slave" }
     environment {
               APP_NAME = "devops-eks-project"
     }
