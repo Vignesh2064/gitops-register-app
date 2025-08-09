@@ -2,8 +2,8 @@ pipeline {
     agent { label "Jenkins-Slave" }
     environment {
               APP_NAME = "devops-cicd-app-pipeline"
-              RELEASE = "1.0.0"
-              IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
+              // RELEASE = "1.0.0"
+              // IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
     }
 
     stages {
