@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: 905418251757.dkr.ecr.ap-south-1.amazonaws.com/newme-tech-latest
+          image: 905418251757.dkr.ecr.ap-south-1.amazonaws.com/newme-tech:latest
           resources:
             limits:
               memory: "256Mi"
